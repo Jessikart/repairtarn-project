@@ -2,8 +2,7 @@
 
 Thème block WordPress + plugin CPT Tickets pour le projet RepairHub (MMI Toulouse).
 
-[![Accueil Desktop](screenshots/accueil-desktop.png)](screenshots/accueil-desktop.png)
-[![Carte Ticket](screenshots/ticket-carte.png)](screenshots/ticket-carte.png)
+[![Accueil Desktop](screenshots/Accueil_Desktop.png)](screenshots/Accueil_Desktop.png)
 
 ## 🚀 Fonctionnalités
 
