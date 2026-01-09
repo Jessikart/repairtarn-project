@@ -1,0 +1,276 @@
+/*
+Theme Name: RepairTarn
+Author: Toi
+Description: Thème bloc pour TP RepairHub
+Version: 1.0
+*/
+
+body {
+  margin: 0;
+}
+
+/* HEADER ------------------------------------------------ */
+
+.site-header {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  padding: 24px 64px;
+}
+
+.site-header .site-logo-text {
+  color: #1E88E5; /* même bleu que le H1 du héro */
+  font-weight: 700;
+}
+
+/* HERO -------------------------------------------------- */
+
+.hero-repair {
+  position: relative;
+  min-height: 520px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://mrj3060a.mmiweb.iut-tlse3.fr/repairtarn/wp-content/themes/repairtarn/assets/img/hero-repair.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero-repair::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hero-repair > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  color: #1E88E5;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero-subtitle {
+  color: #2C3E50;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* SECTION CARTES --------------------------------------- */
+
+.card-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.card-columns {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.card-service {
+  position: relative;
+  max-width: 412px;
+  min-height: 318px;
+  margin-inline: auto;
+  padding: 40px 32px 40px 32px;
+  border-radius: 32px;
+  background-color: #F5F7FA;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  text-align: center;        
+}
+
+.card-icon {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  margin: 0;
+}
+
+.card-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.card-title {
+  color: #2C3E50;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 56px;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  color: #2C3E50;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Boutons des cartes : centrés + plus larges */
+.card-service .wp-block-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-service .wp-block-button__link {
+  min-width: 160px;
+  text-align: center;
+}
+
+/* Boutons des cartes : centrés + plus larges */
+.card-service .wp-block-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-service .wp-block-button__link {
+  min-width: 160px;
+  text-align: center;
+}
+
+/* BOUTONS GÉNÉRAUX ------------------------------------- */
+
+.wp-block-button__link {
+  border-radius: 999px;
+  background-color: #1E88E5;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  font-weight: 600;
+}
+
+/* FOOTER ------------------------------------------------ */
+
+.site-footer {
+  background-color: #F5F7FA;
+  box-shadow: 0 -4px 12px rgba(0,0,0,0.04);
+  font-size: 14px;
+  padding: 32px 64px;
+}
+
+/* CARTE TICKET ------------------------------------------ */
+
+.rt-ticket-card {
+  max-width: 360px;
+  padding: 24px 24px 20px;
+  border-radius: 24px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  font-family: inherit;
+}
+
+/* Header : avatar + nom technicien */
+.rt-ticket-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.rt-ticket-avatar .rt-avatar-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  background: #E0E7EF;
+}
+
+.rt-ticket-technician-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.rt-ticket-technician-sub {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #7B8A9A;
+}
+
+/* Badge de statut -------------------------------------- */
+
+.rt-status-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Couleurs selon le slug de taxonomie */
+.rt-status-ouvert {
+  background: #1E88E5;
+  color: #FFFFFF;
+}
+
+.rt-status-en-cours {
+  background: #FFB300;
+  color: #FFFFFF;
+}
+
+.rt-status-annule {
+  background: transparent;
+  color: #1E88E5;
+  border: 2px solid #1E88E5;
+}
+
+.rt-status-resolu {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
+/* Corps de la carte ------------------------------------ */
+
+.rt-ticket-body {
+  margin-bottom: 20px;
+}
+
+.rt-ticket-device {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.rt-ticket-short-desc {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #2C3E50;
+}
+
+.rt-ticket-date {
+  margin: 0;
+  font-size: 13px;
+  color: #A0ACB8;
+}
+
+.rt-ticket-date span {
+  color: #C4CDD5;
+}
+
+/* Footer : bouton "Voir le ticket" --------------------- */
+
+.rt-ticket-footer {
+  text-align: center;
+}
+
+.rt-ticket-button {
+  display: inline-block;
+  min-width: 180px;
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: #1E88E5;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
