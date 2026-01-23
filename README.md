@@ -4,7 +4,7 @@ Thème block WordPress + plugin CPT Tickets pour le projet RepairHub (MMI Toulou
 
 [![Accueil Desktop](screenshots/Accueil_Desktop.png)](screenshots/Accueil_Desktop.png)
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 ### Thème Block
 - **Design System intégré** : palette 6 couleurs, typo Inter, styles cohérents via `theme.json`.  
@@ -18,7 +18,7 @@ Thème block WordPress + plugin CPT Tickets pour le projet RepairHub (MMI Toulou
 - **Meta box** : technicien, appareil, description courte, dates dépôt/prise en charge, priorité.  
 - **Shortcode `[rt_ticket id="123"]`** : affiche une carte ticket avec statut coloré.
 
-## 📋 Installation
+## Installation
 
 ### 1. Thème
 1. Copie le dossier `repairtarn/` dans `/wp-content/themes/`.  
@@ -31,7 +31,7 @@ Thème block WordPress + plugin CPT Tickets pour le projet RepairHub (MMI Toulou
 3. Crée des tickets dans **Tickets** (nouveau menu admin).  
 4. Affiche une carte avec `[rt_ticket id="123"]`.
 
-## 🎨 Design System
+## Design System
 
 | Élément | Couleur | Usage |
 |---------|---------|-------|
@@ -42,9 +42,9 @@ Thème block WordPress + plugin CPT Tickets pour le projet RepairHub (MMI Toulou
 | Texte principal | `#2C3E50` | Titres, textes |
 | Fond | `#FAFAFA` | Header, arrière-plan |
 
-## 📱 Responsive
+## Responsive
 - Desktop : 1200px max-width.  
 - Mobile : colonnes stackées, boutons adaptatifs.
 
-## 🛠️ Structure technique
+## Structure technique
 
